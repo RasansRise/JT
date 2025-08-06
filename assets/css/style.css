@@ -1258,13 +1258,13 @@ html {
 .main-hero-area {
     padding-top: 250px;
     padding-bottom: 150px;
-    background: url(../images/BG.jpg) no-repeat;
+    background: url(../images/BG.webp) no-repeat;
     background-position: top center;
     background-size: 100% auto;
 }
 
 .main-hero-image-area {
-    background: url(../images/BG.jpg) no-repeat;
+    background: url(../images/BG.webp) no-repeat;
     background-size: cover;
     z-index: 1;
     position: relative;
