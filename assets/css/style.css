@@ -486,7 +486,7 @@ html {
 .theme-btn:hover {
     border: 1px solid var(--button-border);
     text-decoration: none;
-    color: var(--main-color);
+    color: white;
     -webkit-transition: .3s;
     transition: .3s;
     background: var(--black-color);
