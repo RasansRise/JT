@@ -1707,6 +1707,9 @@ Version      : 1.0
     .service-item h4 {
     font-size: 30px;
 }
+.icons {
+    width: 30px;
+}
     .footer-top {
         text-align: center;
         padding-top: 0px;

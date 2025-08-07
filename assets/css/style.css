@@ -2812,6 +2812,7 @@ ul.extra-skills li i {
     margin-top: 10px;
     border-radius: 4px;
     display: none;
+    color: black;
 }
 
 .input-success {
