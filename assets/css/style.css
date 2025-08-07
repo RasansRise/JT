@@ -417,7 +417,7 @@ html {
     font-size: 60px;
     line-height: 70px;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    padding: 20px 0px;
     font-weight: 800;
     color:  #1f233e;
 }
@@ -914,7 +914,10 @@ html {
     transition: 0.3s;
     text-transform: uppercase;
     color: white;
-    margin-right: 20px;
+    margin-left: 20px;
+}
+.logo {
+        text-align: end;
 }
 
 .main-menu ul li .active {
@@ -1473,8 +1476,8 @@ html {
 * ----------------------------------------------------------------------------------------
 */
 .about-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
 }
 .about-area h2 {
     color: black;
@@ -1701,12 +1704,12 @@ h2.about-pre-title {
 */
 
 .service-item {
-    height: 390px;
+    /* height: 390px; */
     position: relative;
-    padding: 60px 40px;
+    padding: 50px 40px;
     border-radius: 20px;
     border: 1px solid var(--border-color);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color: #9bcaea;
@@ -1715,15 +1718,28 @@ h2.about-pre-title {
     color: white;
 }
 .sevice-area2{
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 .sevice-area2 .service-item {
-    height: 335px;
-    padding: 60px 71px;
+    /* height: 335px; */
+       padding: 40px 37px;
+}
+#oml .col-xl-4 {
+        padding: 0px 4px
+}
+#oml .col-xl-4:last-child p {
+        font-size: 15px;
 }
 .sevice-area2 .service-item h4 {
-    font-size: 34px;
-    margin-bottom: 25px;
+  font-size: 30px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+#services .row .col-xl-4:nth-child(2) {
+    padding-right: 0px;
+}
+#services .row .col-xl-4:nth-child(3) {
+    padding-left: 0px;
 }
 .sevice-area2 .service-item .icons {
     fill: #1f233e;
@@ -1756,9 +1772,9 @@ h2.about-pre-title {
     color: white;
 }
 
-.service-item2{
+/* .service-item2{
     height: 435px;
-}
+} */
 .items2{
     background-color:  #00e3b5;
 }
@@ -1802,8 +1818,8 @@ h2.about-pre-title {
     color: var(--heading-color);
     font-size: 40px;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     font-weight: 700;
 }
 .items2 svg{
@@ -1817,20 +1833,33 @@ h2.about-pre-title {
     margin-top: 2px;
 }
 .items3 ul li {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.43;
 }
 .items4 h4 {
     margin-right: 10px;
 }
 .service-item p {
     color: var(--heading-color);
-    font-size: 20px;
-    margin-top: 4px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    /* margin-bottom: 20px; */
     font-weight: 500;
     line-height: 1.2;
+}
+#oml .service-item p {
+   font-size: 15px;
+    /* margin-bottom: 20px; */
+    font-weight: 400;
+    /* line-height: 1.2; */
+}
+.service-item .parag {
+    margin-top: 15px;
+
+}
+.service-item .parag2 {
+    line-height: 1.3;
+
 }
 
 .service-item i {
@@ -1925,8 +1954,34 @@ ul.extra-skills li i {
 */
 .resume-area {
     padding-top: 100px;
-    padding-bottom: 100px;
+        padding-bottom: 80px;
     background: var(--body-background);
+}
+#contact .section-title h2 {
+           margin: 75px 0;
+        color: white;
+}
+#oml1 .section-title h4 {
+    padding: 30px;
+}
+.resume-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.resume-title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #1f233e;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+    vertical-align: middle;
+}
+.resume-area .col-xl-6:nth-child(5) .resume-box .resume-title::before {
+   background-color: #00e3b5;
 }
 
 .resume-wrapper {
@@ -1951,9 +2006,9 @@ ul.extra-skills li i {
 .resume-wrapper .resume-box {
     margin-bottom: 20px;
     background: #86868638;
-    padding: 60px 40px;
+        padding: 30px 40px;
     border-radius: 20px;
-        height: 340px;
+        /* height: 340px; */
 }
 .resume-wrapper .box1 {
     background: #04dbfa;
@@ -1962,10 +2017,10 @@ ul.extra-skills li i {
 
 .resume-box h2 {
     color:  #1f233e;
-    font-size: 30px;
+    font-size: 27px;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     font-weight: bolder;
 
 }
@@ -2528,18 +2583,20 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .contact-area {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    /* padding-top: 80px;
+    padding-bottom: 100px; */
     position: relative;
     overflow: hidden;
+    background-color: #1f233e;
+    color: white;
 }
 .contact-area .overlay {
     position: absolute;
-    top: 0;
+    top: 4%;
     left: 0;
     width: 500px;
     height: 100%;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 
@@ -2563,7 +2620,7 @@ ul.extra-skills li i {
 .form-group .theme-btn {
     border-radius: 10px;
     color: white;
-    background-color:  #2e3bd9;
+    background-color:  #1f233e;
     font-size: 17px;
 }
 
@@ -2671,45 +2728,42 @@ ul.extra-skills li i {
     font-size: 20px;
 }
 
-.contact-content-part {
-    padding-right: 50px;
-}
 
 .contact-content-part h2 {
    font-size: 20px;
     text-transform: uppercase;
-    margin: 35px 0;
-    color:  #1f233e;
+    /* margin: 35px 0; */
+    color:  white;
     font-weight: 800;
 }
 
 .contact-content-part p {
     font-size: 19px;
-    color:  #1f233e
+    color:  white
 ;
 }
 
 .contact-content-part img {
     width: 250px;
   
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-page-content h6 {
     font-size: 18px;
     margin-bottom: 22px;
-    color:  #1f233e;
+    color:  white;
 }
 .contact-content-part .contact-social{
-    color:  #2e3bd9;
+    color:  white;
 }
 .contact-content-part .contact-social-icon a svg {
  
-    fill: rgba(128, 128, 128, 0.459);
+    fill: white;
     margin-right: 5px;
 }
 .contact-content-part .location svg{
-    fill:  #2e3bd9;
+    fill:  white;
     width: 35px;
     height: 30px;
     margin-bottom: 20px;
@@ -2819,15 +2873,23 @@ p.copy-right-text {
 }
 
 .footer-top {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #1f233e;
+    color: white;
 }
 
 .footer-top p {
 
     color: var(--main-color);
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
+}
+.footer-top .about-social {
+    text-align: end;
+}
+.footer-top a {
+    color: white;
 }
 
 /*
@@ -3690,6 +3752,18 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
+
+@media (min-width: 1200px) {
+   #oml .col-xl-4:last-child p {
+    font-size: 15px;
+}
+}
+
+
+
+#oml .row .col-xl-4:first-child .service-item{
+       padding: 40px 20px;
+    }
 
 
 
