@@ -2739,8 +2739,8 @@ ul.extra-skills li i {
 
 .contact-content-part p {
     font-size: 19px;
-    color:  white
-;
+    color:  white;
+
 }
 
 .contact-content-part img {
@@ -2953,7 +2953,7 @@ body.loaded {
 }
 
 .preloader .preloader-heading .load-text {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
     letter-spacing: 15px;
     text-transform: uppercase;
