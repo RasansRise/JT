@@ -101,6 +101,7 @@ h6,
 .accordion-item .accordion-button {
     color: var(--main-color);
     font-family: var(--title-font);
+    margin-bottom: 0;
 }
 
 h1,
@@ -390,7 +391,7 @@ html {
 }
 
 .section-title {
-    margin-bottom: 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -413,11 +414,11 @@ html {
 }
 
 .section-title h2 {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 60px;
     line-height: 70px;
     text-transform: uppercase;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     font-weight: 800;
     color:  #1f233e;
 }
@@ -1285,13 +1286,16 @@ html {
     z-index: -1;
 }
 
-.multipage-service-area{
-    padding-top: 30px;
+/* .multipage-service-area{
+    padding-top: 30px;  
+} */
+#oml1 {
+    padding-top: 0px;
 }
 .services-area h4{
     font-size: 65px;
     font-weight: 700;
-    color:   black;
+    color:  #1f233e;
 }
 
 .hero-content {
@@ -1480,7 +1484,7 @@ html {
     /* padding-bottom: 100px; */
 }
 .about-area h2 {
-    color: black;
+    color: #1f233e;
     font-weight: 800;
     font-size: 50px;
 }
@@ -1536,6 +1540,7 @@ html {
     line-height: 1.4em;
     font-weight: 400;
     color: #868686;
+    margin-bottom: 40px;
 }
 .about-content-part h5{
     font-size: 20px;
@@ -1717,9 +1722,9 @@ h2.about-pre-title {
 .service-item ul li {
     color: white;
 }
-.sevice-area2{
+/* .sevice-area2{
     padding-bottom: 20px;
-}
+} */
 .sevice-area2 .service-item {
     /* height: 335px; */
        padding: 40px 37px;
@@ -1953,7 +1958,7 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .resume-area {
-    padding-top: 100px;
+    padding-top: 80px;
         padding-bottom: 80px;
     background: var(--body-background);
 }
@@ -2174,7 +2179,7 @@ ul.extra-skills li i {
     font-size: 24px; 
     font-weight: 200;
     color: #1f233e;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 
