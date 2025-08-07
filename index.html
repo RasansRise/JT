@@ -1363,8 +1363,12 @@
             <div class="row justify-content-lg-between justify-content-md-center align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-12">
                     <div class="footer-top wow fadeInUp">
-                        <p> 
-Copyright 2024 ©                   
+                        <p id="date">
+                            <script>
+                                document.getElementById("date").innerHTML = new Date().getFullYear();
+                            </script>
+                     
+Copyright ©                   
      </p>
                     </div>
                 </div>

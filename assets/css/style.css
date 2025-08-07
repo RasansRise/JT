@@ -3102,6 +3102,7 @@ body.loaded {
     top: 8px;
     font-size: 25px;
     text-align: center;
+    color: beige;
 }
 
 .progress-wrap svg path {
