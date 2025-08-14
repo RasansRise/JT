@@ -136,6 +136,17 @@ Version      : 1.0
         $(".body-overlay").removeClass("opened");
     });
 
+    $(".sidebar__close-btn ,.mobile-menu .onepage li a").on("click", function() {
+    $(".sidebar__area").removeClass("sidebar-opened");
+    $(".body-overlay").removeClass("opened");
+});
+
+// Replace with this updated version that handles all links
+$(".sidebar__close-btn, .mobile-menu a").on("click", function() {
+    $(".sidebar__area").removeClass("sidebar-opened");
+    $(".body-overlay").removeClass("opened");
+});
+
 
 
     /*

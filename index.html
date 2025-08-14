@@ -495,7 +495,37 @@
                 <!-- / END ABOUT TEXT DESIGN AREA -->
             </div>
         </div>
-        <img src="assets/images/banner.webp" alt="banner" loading="lazy">
+    </section>
+
+
+    <section class="image">
+        <!-- i will make style tag to put image like bg -->
+         <style>
+             .image{
+                 background-image: url(assets/images/banner.webp);
+                 height: 100vh;
+                 background-size: cover;
+                 margin-bottom: 60px;
+                         background-position: center;
+             }
+             @media screen and (max-width: 768px) {
+                 .image {
+    height: 55vh;
+    margin-bottom: 10px;
+}
+                
+             }
+
+
+             @media screen and (max-width: 600px) {
+                    .image{
+    height: 40vh;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+                    }
+                
+             }
+         </style>
     </section>
 
       <section id="oml3" class="services-area projects-area projects-area2 multipage-service-area">
@@ -525,7 +555,7 @@
         </div>
         </section>
 
-          <section id="oml4" class="services-area projects-area multipage-service-area">
+          <section class="services-area projects-area multipage-service-area" id="oml4">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
@@ -1449,6 +1479,9 @@ Copyright ©
     <!-- SCRIPT JS-->
     <script src="assets/js/script.js"></script>
 
+
+    
+    
 
     
 </body>
