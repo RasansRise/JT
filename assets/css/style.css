@@ -3762,6 +3762,14 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
+.list a{
+    color: white;
+    font-size: 17px;
+}
+.list li {
+    margin:10px 0;
+}
+
 
 @media (min-width: 1200px) {
    #oml .col-xl-4:last-child p {
