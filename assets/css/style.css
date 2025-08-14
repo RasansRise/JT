@@ -3762,10 +3762,18 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
+.single-side-bar h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .list a{
     color: white;
     font-size: 17px;
 }
+
 .list li {
     margin:10px 0;
 }
