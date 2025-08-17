@@ -1979,16 +1979,15 @@ ul.extra-skills li i {
   align-items: stretch;
 }
 
-.resume-title::before {
+/* .resume-title::before {
     content: "";
     display: inline-block;
     width: 10px;
     height: 10px;
     background-color: #1f233e;
     border-radius: 50%;
-    /* margin-right: 10px; */
     vertical-align: middle;
-}
+} */
 .resume-area .col-xl-6:nth-child(5) .resume-box .resume-title::before {
    background-color: #00e3b5;
 }
@@ -4006,4 +4005,15 @@ ul.blog_pagination li a:hover {
       padding-inline: 0px;
 }
     
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .hero-content h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+}
+
+.location-icon {
+    margin-left: -10px;
 }

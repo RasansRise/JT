@@ -196,5 +196,18 @@
     padding-left: 0px;
     padding-right: 10px;
 }
+.resume-box h2 {
+        font-size: 18px;
+    }
+    #oml .col-xl-4:last-child p {
+    font-size: 14px;
+}
+#oml .col-xl-4:nth-child(4) .service-item{
+        padding: 40px 80px;
+  }
     
+}
+
+.footer-top .about-social {
+    text-align: start !important;
 }
