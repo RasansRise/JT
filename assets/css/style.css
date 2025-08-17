@@ -3932,3 +3932,78 @@ ul.blog_pagination li a:hover {
     color: var(--primary-color);
     margin-bottom: 30px;
 }
+
+
+
+.language-switcher {
+  position: relative;
+  display: inline-block;
+      padding-inline: 25px;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 30px 5px 5px; /* مساحة للسهم */
+  position: relative;
+}
+
+.dropbtn img {
+  width: 30px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* السهم */
+.dropbtn::after {
+  content: "▼";
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 60px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.dropdown-content img {
+  width: 30px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width: 991px) {
+    .onepage {
+        text-align: end;
+    }
+
+    
+.language-switcher {
+  position: relative;
+  display: inline-block;
+      padding-inline: 0px;
+}
+    
+}

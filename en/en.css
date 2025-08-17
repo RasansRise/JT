@@ -1,0 +1,171 @@
+
+.main-header .onepage li a {
+        font-size: 15px;
+        margin-left: 0px;
+}
+.language-switcher {
+      padding-inline: 0px;
+}
+
+.hero-content h1 {
+    font-size: 130px;
+    text-transform: capitalize;
+}
+.section-title h2 {
+    text-transform: capitalize;
+}
+.service-item h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#services .parag3 {
+    margin-top: 5px;
+}
+.our-list {
+    margin-top: 19px;
+}
+.values {
+    margin-top: 8px;
+}
+#services .row .col-xl-4:nth-child(3) {
+    padding-left: 10px;
+}
+#services .row .col-xl-4:nth-child(4) {
+    padding-right: 5px;
+}
+#oml .service-item p {
+    font-size: 16px;
+}
+
+.resume-box h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.resume-wrapper .resume-box .resume-date {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.contact-area .overlay2 {
+    position: absolute;
+    top: 4%;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    /* z-index: -1; */
+}
+.contact-content-part h2 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.contact-form-area .form-group label {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.contact-form-area .form-group .form-control {
+    text-align: left;
+}
+.footer-top .col-xl-6:nth-child(2) p {
+    text-align: end; 
+}
+#oml .col-xl-4:nth-child(7) .service-item{
+       padding: 40px 60px;
+}
+.onepage {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+ #oml .col-xl-4:last-child p {
+    font-size: 14px;
+}
+.resume-box h2
+ {
+    font-size: 18px;
+}
+    
+}
+
+.sidebar__area {
+    position: fixed;
+    left: -485px; /* يبدأ من الشمال */
+    top: 0;
+    width: 465px;
+    height: 100%;
+    background: var(--black-color) none repeat scroll 0 0;
+    overflow-y: scroll;
+    -ms-box-shadow: 5px 0 20px -5px rgba(0, 0, 0, 0.5);   /* ظل من اليمين */
+    -o-box-shadow: 5px 0 20px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 0 20px -5px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 9999;
+}
+
+@media (max-width: 575px) {
+    .sidebar__area {
+        width: 290px;
+    }
+}
+
+/* الحالة المفتوحة */
+.sidebar__area.sidebar-opened {
+    left: 0;
+}
+
+/* wrapper الداخلي */
+.sidebar__wrapper {
+    position: relative;
+    padding: 45px;
+}
+
+@media (max-width: 575px) {
+    .sidebar__wrapper {
+        padding: 20px;
+    }
+}
+
+/* زر الإغلاق */
+.sidebar__close {
+    position: absolute;
+    top: 35px;
+    left: 45px; /* بقى شمال بدل يمين */
+}
+
+@media (max-width: 575px) {
+    .sidebar__close {
+        top: 12px;
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header .logo img {
+        width: 120px;
+        margin-right: 0px !important;
+    }
+    .hero-content p {
+    margin: 20px 0;
+}
+.footer-top .col-xl-6:nth-child(2) p {
+    text-align: center;
+}
+    .contact-area .overlay2 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+       .contact-area .overlay2 {
+        display: none;
+    }
+    
+}

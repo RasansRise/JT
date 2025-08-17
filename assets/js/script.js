@@ -514,3 +514,40 @@ $(".sidebar__close-btn, .mobile-menu a").on("click", function() {
 
 
 })(jQuery); // End jQuery
+
+
+
+// Add this to your existing script.js file
+
+// Language Switcher
+document.addEventListener('DOMContentLoaded', function() {
+  const options = document.querySelectorAll('.lang-option');
+  const currentFlag = document.getElementById('current-flag');
+
+  options.forEach(option => {
+    option.addEventListener('click', function(e) {
+      e.preventDefault();
+      const lang = this.getAttribute('data-lang');
+      
+      // تغيير العلم الحالي
+      currentFlag.src = this.querySelector('img').src;
+      
+      // حفظ اللغة
+      localStorage.setItem('selectedLanguage', lang);
+
+      // إعادة التوجيه
+      if (lang === 'en') {
+        window.location.href = '/en/index.html';
+      } else {
+        window.location.href = '/index.html';
+      }
+    });
+  });
+
+  // استرجاع اللغة المختارة
+  const currentLang = localStorage.getItem('selectedLanguage') || 'ar';
+  const activeOption = document.querySelector(`[data-lang="${currentLang}"] img`);
+  if (activeOption) {
+    currentFlag.src = activeOption.src;
+  }
+});
