@@ -169,3 +169,32 @@
     }
     
 }
+
+@media screen and (max-width: 1024px) {
+  #oml .col-xl-4:nth-child(4) .service-item{
+        padding: 40px 80px;
+  }
+  .hero-content h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+#services .row .col-xl-4:nth-child(3) {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+    #services .row .col-xl-4:nth-child(2) {
+        padding-right: 5px !important;
+    }
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .hero-content h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+#services .row .col-xl-4:nth-child(3) {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+    
+}
