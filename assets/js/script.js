@@ -537,7 +537,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // إعادة التوجيه
       if (lang === 'en') {
-        window.location.href = '/en';
+        window.location.href = '/en/index.html';
       } else {
         window.location.href = '/index.html';
       }
