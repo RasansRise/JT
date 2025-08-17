@@ -520,9 +520,11 @@ $(".sidebar__close-btn, .mobile-menu a").on("click", function() {
 // Add this to your existing script.js file
 
 // Language Switcher
+// Language Switcher
 document.addEventListener('DOMContentLoaded', function() {
   const options = document.querySelectorAll('.lang-option');
   const currentFlag = document.getElementById('current-flag');
+  const baseUrl = window.location.origin + '/Tasks/JT/'; // تعديل هذا حسب مسار موقعك
 
   options.forEach(option => {
     option.addEventListener('click', function(e) {
@@ -532,19 +534,19 @@ document.addEventListener('DOMContentLoaded', function() {
       // تغيير العلم الحالي
       currentFlag.src = this.querySelector('img').src;
       
-      // حفظ اللغة
+      // تخزين اللغة المختارة
       localStorage.setItem('selectedLanguage', lang);
 
-      // إعادة التوجيه
+      // تغيير اللغة
       if (lang === 'en') {
-        window.location.href = '/en/index.html';
+        window.location.href = baseUrl + 'en/index.html';
       } else {
-        window.location.href = '/index.html';
+        window.location.href = baseUrl + 'index.html';
       }
     });
   });
 
-  // استرجاع اللغة المختارة
+  // استرجاع اللغة المخزنة
   const currentLang = localStorage.getItem('selectedLanguage') || 'ar';
   const activeOption = document.querySelector(`[data-lang="${currentLang}"] img`);
   if (activeOption) {
