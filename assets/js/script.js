@@ -524,7 +524,10 @@ $(".sidebar__close-btn, .mobile-menu a").on("click", function() {
 document.addEventListener('DOMContentLoaded', function() {
   const options = document.querySelectorAll('.lang-option');
   const currentFlag = document.getElementById('current-flag');
-  const baseUrl = window.location.origin + '/Tasks/JT/'; // تعديل هذا حسب مسار موقعك
+
+  // هنا بناخد المسار اللي فيه المشروع (زي /JT/)
+  const pathName = window.location.pathname.split('/')[1]; 
+  const baseUrl = window.location.origin + '/' + pathName + '/';
 
   options.forEach(option => {
     option.addEventListener('click', function(e) {
