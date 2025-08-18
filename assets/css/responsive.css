@@ -1581,7 +1581,7 @@ Version      : 1.0
 }
 @media only screen and (max-width: 768px) {
     .hero-content h1{
-        font-size: 80px;
+        font-size: 65px;
     }
     .hero-content p {
     font-size: 18px;
