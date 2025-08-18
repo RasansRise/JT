@@ -1579,6 +1579,14 @@ Version      : 1.0
 }
 
 }
+
+@media only screen and (max-width: 992px) {
+    .hero-content h1{
+        font-size: 80px;
+    } 
+
+}
+
 @media only screen and (max-width: 768px) {
     .hero-content h1{
         font-size: 65px;
