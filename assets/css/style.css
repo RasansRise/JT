@@ -2746,7 +2746,7 @@ ul.extra-skills li i {
 }
 
 .contact-content-part p {
-    font-size: 19px;
+    font-size: 18px;
     color:  white;
 
 }
@@ -4016,4 +4016,10 @@ ul.blog_pagination li a:hover {
 
 .location-icon {
     margin-left: -10px;
+}
+
+
+.location2 {
+    margin-left: 0px;
+    margin-right: -5px;
 }
