@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         // إعدادات الإيميل
-        $to = "yourEmail@example.com";  // Replace with your email
+        $to = "info@jt.com.sa";  // Replace with your email
         $subject = "New Contact Form Message from $name";
         
         $body = "
