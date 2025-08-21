@@ -1376,12 +1376,13 @@
                 <!-- START CONTACT FORM DESIGN AREA -->
                 <div class="col-xl-6 col-lg-7 col-md-12">
                     <div class="contact-form contact-form-area wow fadeInUp delay-0-4s">
-                             <form id="contactForm" class="contact-form" action="sendmail.php" method="post">
+                             <form id="contactForm" class="contact-form" >
+                                <input type="hidden" name="access_key" value="9211f163-b7eb-4321-b6f9-9bef0d753062">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="name">الاسم</label>
-                                        <input type="text" id="name"  class="form-control" value="" placeholder="اسمك هنا.." required="placeholder" data-error="برجاء ادخال الاسم" />
+                                        <input type="text" id="name" name="name"  class="form-control" value="" placeholder="اسمك هنا.." required="placeholder" data-error="برجاء ادخال الاسم" />
                                         <label for="name" class="for-icon"><i class="far fa-user"></i></label>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -1389,7 +1390,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="email">البريد الالكتروني</label>
-                                        <input type="email" id="email" class="form-control" value="" placeholder="hello@websitename.com" required="" data-error="برجاء ادخال البريد الالكتروني" />
+                                        <input type="email" id="email" name="email" class="form-control" value="" placeholder="hello@websitename.com" required="" data-error="برجاء ادخال البريد الالكتروني" />
                                         <label for="email" class="for-icon"><i class="far fa-envelope"></i></label>
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -1397,7 +1398,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="tel">رقم الهاتف</label>
-                                        <input type="tel" id="tel" class="form-control" value="" placeholder="رقم الهاتف الخاص بك..." required="" data-error="برجاء ادخال رقم الهاتف" />
+                                        <input type="tel" id="tel" name="tel" class="form-control" value="" placeholder="رقم الهاتف الخاص بك..." required="" data-error="برجاء ادخال رقم الهاتف" />
                                         <label for="tel" class="for-icon"><i class="far fa-user"></i></label>
                                         <div class="help-block with-errors"></div>
                                     </div>

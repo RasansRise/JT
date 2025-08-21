@@ -384,8 +384,8 @@ $(".sidebar__close-btn, .mobile-menu a").on("click", function() {
 
         if (isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) && (data['tel'].length > 1)) {
             $.ajax({
-                type: "POST",
-                url: "sendmail.php",
+                // type: "POST",
+                // url: "sendmail.php",
                 data: data,
                 success: function() {
                     $('#contactForm .input-success').delay(500).fadeIn(1000);
